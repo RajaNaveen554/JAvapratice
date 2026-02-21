@@ -1,0 +1,22 @@
+package Inheritance;
+
+public class Child extends Parent{
+	int code;
+	String name;
+	Child(int pcode,String pname,int code, String name)
+	{
+		super(pcode,pname);
+		this.code=code;
+		this.name=name;	
+	}
+	public void showData()
+	{
+		System.out.print("Parent code:"+pcode);
+		System.out.print("parent name:"+pname);
+		System.out.print("Child code:"+code);
+		System.out.print("Child name:"+name);
+		
+		
+	}
+
+}

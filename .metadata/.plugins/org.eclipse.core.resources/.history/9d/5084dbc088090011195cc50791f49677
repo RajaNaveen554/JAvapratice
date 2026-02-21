@@ -1,0 +1,22 @@
+package Inheritance;
+
+public class Child {
+	int code;
+	String name;
+	Child(int gcode,String gname,int pcode,String pname,int code,String name)
+	{
+		super(gcode,gname,pcode,pname);
+		this.code=code;
+		this.name=name;
+	}
+	public void showData()
+	{
+		System.out.println("Grand Parent Code:" +gcode);
+		System.out.println("Grand Parent Name:" + gname);
+		System.out.println("Parent Code:" +pcode);
+		System.out.println("Parent Name:" + pname);
+		System.out.println("Code:" +code);
+		System.out.println("Name:" + name);
+	}
+
+}

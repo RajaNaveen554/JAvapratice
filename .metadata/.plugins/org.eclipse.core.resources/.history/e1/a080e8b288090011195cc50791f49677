@@ -1,0 +1,13 @@
+package Inheritance;
+
+public class Parent {
+	int pcode;
+	String pname;
+	Parent(int gcode,String gname,int pcode, String pname )
+	{
+		this.pcode=pcode;
+		this.pname=pname;
+		
+	}
+
+}

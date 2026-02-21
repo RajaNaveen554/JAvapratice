@@ -1,0 +1,10 @@
+package Inheritance;
+
+public class SingleInheritance {
+	public static void main(String[] args)
+	{
+		Child c=new Child(100,"raja",101,"naveen");
+		c.showData();
+	}
+
+}
