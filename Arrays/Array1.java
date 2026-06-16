@@ -15,7 +15,6 @@ public class Array1 {
             System.out.print(a[i] + " ");
         }
         
-        
     }
     
 }
