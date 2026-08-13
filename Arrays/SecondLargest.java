@@ -13,7 +13,8 @@ public class SecondLargest {
         int min=-1;
         for(int i=0;i<s;i++)
         {
-            if(a[i]>max)
+            if(a[i]>max) 
+
             {
                 max=a[i];
             }
@@ -24,9 +25,7 @@ public class SecondLargest {
             {
                 min=a[i];
             }
-
     }
     System.out.print("Second largest number:"+min);
-    
 }
-}
+}          
